@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(40, 40, 39);
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    flex-basis: 100%;
+    color:linen;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.searchbox {
+   display: flex;
+ 
+}
+
+.searcbox, input[type=text] {
+    width: 445px;
+    box-shadow: inset 0 0 10px 3px rgba(0, 0, 0, 0.4) ;
+    border-radius: 7px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    padding: 8px;
+    color:gray;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+    margin: 0 15px;
+    background-color: rgb(14, 143, 199);
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+}
+
+.todo button{
+    background-color: rgb(84, 170, 207);
+}
+
+.innerWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width:640px;
+}
+
+.inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:100%;
+    flex-wrap: wrap;
+    
+}
+
+.listItem{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.todo {
+    display:flex;
+    margin: 4px 12px;
+    padding: 12px 10px 12px 10px;
+    width: 100%;
+    justify-content: flex-end;
+    background-color: rgb(250, 244, 216);    
+}
+
+
+.todo button{
+    width: 85px;
+    margin: 25px 7px 0;
+    height: 30px;
+
+}
+
+.todo h2 {
+    margin-right: 30%;
+    font-family: 'Shadows Into Light';
+    font-weight: 700;
+    color: rgb(66, 67, 68);
+}
+
+.strikeThrough{
+    text-decoration: line-through;
+    color: red !important;
+    font-size: 150%;
+}
